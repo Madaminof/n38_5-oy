@@ -8,12 +8,12 @@ def Time2(a,b):
 print(Time2(5,7))
 
 # 2-masala
-"""def JuftBoluv(n):
+def JuftBoluv(n):
     for i in range(1,n+1):
         if i%2==0:
             yield i
 juft=list(JuftBoluv(10))
-print(juft)    """        
+print(juft)   
 
 # 3.Berilgan songacha bolgan tup sonlarni chiqaradigan generator yozing
 def TubN(n):
