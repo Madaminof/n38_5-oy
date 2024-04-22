@@ -20,6 +20,21 @@ l1=[1,2,3,4,5,6,7,8,9]
 l2=["john","tom","tommy"]"""
 
 
+def greet(name):
+    def display_name():
+        print("Hi", name)
+    
+    display_name()
+greet("John")  
+
+
+
+
+
+
+
+
+
 
 from collections import namedtuple
 

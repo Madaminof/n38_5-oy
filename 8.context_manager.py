@@ -69,13 +69,11 @@ print(result)
 def Text_len_5(s):
     s1=s.split()
     for i in s1:
-        if len(i)<=5:
+        if len(i)>=5:
             yield i
 s="Berilgan matndagi uzunligi 5 dan katta bolgan sozlarni qaytaradigan generator yozing"            
 result=list(Text_len_5(s))
 print(result)
-
-
 
 
 # 8.Berilgan roxatda 3 marta qatnashgan sonlarni qaytaradigan generator yozing
@@ -85,7 +83,39 @@ def lists(l):
             yield i
 l=["abs","abs","abs","cieudc","a","a","a"]    
 r=set(lists(l))
-print(list(r))        
+print(list(r))   
+
+
+
+# Fibonachchi sonni topish
+def fibonachi(n):
+    l=[]
+    a=0
+    b=1
+    l.append(0)
+    for i in range(n):
+        a,b=b,a+b
+        l.append(a)
+    return l
+print(fibonachi(19))  
+
+# Kabisa yili
+def Kabisa_Yil(yil):
+    if (yil%400==0) or (yil%4==0 and yil%100!=0):
+        return True
+    else:
+        return False
+print(Kabisa_Yil(2010))    
+
+        
+
+
+
+
+
+
+
+
 
        
 
