@@ -1,0 +1,4 @@
+{'NamedTuple':'namedtuple, Pythonning collections modulida joylashgan kutilgan qisqichbaqiy ma'lumot strukturasidir. U, o'zida ko'plab qiymatlarni saqlay olgan va unga atamalangan atributlarni (nomlarni) bor bo'lgan obyekt yaratadi.',
+'Iterator':'Iterator, Python dasturlash tilida ko'p qo'llaniladigan obyekt bo'lib, oddiyroq deyish mumkin. Asosiy vazifasi, ma'lum bir qatorni ko'rib chiqish imkonini berishdir. Iteratorlar, __iter__() va __next__() metodlari orqali bajariladi.',
+''
+}
